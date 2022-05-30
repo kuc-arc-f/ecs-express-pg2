@@ -1,0 +1,22 @@
+{
+  "name": "express_app",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "First Last",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "csrf": "^3.1.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "log4js": "^6.4.4",
+    "nodemon": "^2.0.16",
+    "pg": "^8.7.3"
+  }
+}
